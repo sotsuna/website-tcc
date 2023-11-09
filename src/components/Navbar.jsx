@@ -1,13 +1,10 @@
 const Navbar = () =>(
-    <div className="navbar">
-        <ul>
-            <li>
-                teste
-            </li>
-            <li>
-                teste 2
-            </li>
-        </ul>
+    <div className="navbar bg-black h-16">
+        <div className="container">
+            <div className="navbar-brand">
+                <a className="navbar-item" href="https://bulma.io">Teste</a>
+            </div>
+        </div>
     </div>
 );
 
