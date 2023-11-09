@@ -1,14 +1,14 @@
-const Content = () => (
+const Content = (text, title, inverted = false) => (
     <div>
-        <div className="w-screen h-screen flex items-center gap-8">
+        <div className="w-screen h-screen flex items-center gap-8 {inverted : flex-row-reverse ? flex-row }">
             <div className="">
-                <p>
-                    Some text
-                </p>
+                <h1>
+                    {title}
+                </h1>
             </div>
             <div>
                 <p>
-                    Some text
+                    {text}
                 </p>
             </div>
         </div>
