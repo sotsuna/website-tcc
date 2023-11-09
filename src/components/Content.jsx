@@ -1,6 +1,10 @@
-const Content = (text, title, inverted = false) => (
+const Content = ({text, title, inverted = false}) => {
+    const invertede = inverted ? "flex-row-reverse" : "flex-row";
+    const classes = `w-screen h-screen flex items-center gap-8 ${invertede}`
+    
+    return (
     <div>
-        <div className="w-screen h-screen flex items-center gap-8 {inverted : flex-row-reverse ? flex-row }">
+        <div className={classes}>
             <div className="">
                 <h1>
                     {title}
@@ -12,7 +16,7 @@ const Content = (text, title, inverted = false) => (
                 </p>
             </div>
         </div>
-    </div>
-);
+    </div>)
+};
 
 export default Content;
