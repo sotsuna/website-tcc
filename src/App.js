@@ -1,11 +1,12 @@
 import './App.css';
 import Content from './components/Content';
 import Navbar from './components/Navbar';
+import text from './components/text.json';
 
 const App = () => (
-  <div className="bg-slate-300 w-screen h-screen">
+  <div className="bg-slate-300">
     <Navbar/>
-    <Content text="olá" title="teste" inverted/>
+    <Content text={text[1].age} inverted/>
   </div>
 );
 
