@@ -1,13 +1,12 @@
 import './App.css';
+import Header from './components/Header';
 import Content from './components/Content';
-import Navbar from './components/Navbar';
+// import Navbar from './components/Navbar';
 import text from './components/text.json';
-import Sidebar from './components/Sidebar';
 
 const App = () => (
   <div>
-    <Navbar/>
-    <Sidebar/>
+    <Header/>
     <Content text={text[1].text} title={text[1].title} inverted/>
     <Content text={text[2].text} title={text[2].title}/>
     <Content text={text[3].text} title={text[3].title} inverted/>
