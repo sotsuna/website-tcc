@@ -1,12 +1,11 @@
 import { useState } from "react";
+import '../../src/App';
 
 export default function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
-    <div className="flex items-center justify-between border-b border-gray-400 py-8">
-      <a>
-      </a>
+    <div className="flex items-center justify-between border-b border-gray-400 py-8 bg-black text-white">
       <nav>
         <section className="MOBILE-MENU flex lg:hidden">
           <div
@@ -50,7 +49,7 @@ export default function Header() {
           </div>
         </section>
 
-        <ul className="DESKTOP-MENU hidden space-x-8 lg:flex">
+        <ul className="DESKTOP-MENU hidden space-x-8 lg:flex px-4">
           <li>
           <a href="/about">Problema</a>
           </li>
@@ -60,28 +59,14 @@ export default function Header() {
           <li>
             <a href="/contact">Objetivo Geral</a>
           </li>
+          <li>
+            <a href="/contact">Objetivos específicos da pesquisa</a>
+          </li>
+          <li>
+            <a href="/contact">Referencial Teórico</a>
+          </li>
         </ul>
-        
       </nav>
-      <style>{`
-      .hideMenuNav {
-        display: none;
-      }
-      .showMenuNav {
-        display: block;
-        position: absolute;
-        width: 100%;
-        height: 100vh;
-        top: 0;
-        left: 0;
-        background: white;
-        z-index: 10;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-      }
-    `}</style>
     </div>
   );
 }
