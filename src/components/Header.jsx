@@ -5,7 +5,7 @@ export default function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
-    <div className="flex items-center justify-between border-b border-gray-400 py-8 bg-black text-white">
+    <div className="flex items-center justify-between py-8 bg-black text-white fixed w-full rounded-b-3xl">
       <nav>
         <section className="MOBILE-MENU flex lg:hidden">
           <div
@@ -51,7 +51,7 @@ export default function Header() {
 
         <ul className="DESKTOP-MENU hidden space-x-8 lg:flex px-4">
           <li>
-          <a href="/about">Problema</a>
+            <a href="/about">Problema</a>
           </li>
           <li>
             <a href="/portfolio">Justificativa</a>
