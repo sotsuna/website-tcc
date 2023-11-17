@@ -1,11 +1,12 @@
 import { useState } from "react";
-import '../../src/App';
+import '../../src/App.css';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 export default function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
-    <div className="flex items-center justify-between py-8 bg-black text-white fixed w-full rounded-b-3xl">
+    <div className="flex items-center justify-between py-8 dark-green-gray text-off-white fixed w-full">
       <nav>
         <section className="MOBILE-MENU flex lg:hidden">
           <div
@@ -36,14 +37,20 @@ export default function Header() {
               </svg>
             </div>
             <ul className="flex flex-col items-center justify-between min-h-[250px]">
-              <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/about">Problema</a>
+              <li>
+                <AnchorLink href="#problema">Problema</AnchorLink>
               </li>
-              <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/portfolio">Justificativa</a>
+              <li>
+                <AnchorLink href="#justificativa">Justificativa</AnchorLink>
               </li>
-              <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/contact">Objetivo Geral</a>
+              <li>
+                <AnchorLink href="#objetivo">Objetivo Geral</AnchorLink>
+              </li>
+              <li>
+                <AnchorLink href="#especificos">Objetivos específicos da pesquisa</AnchorLink>
+              </li>
+              <li>
+                <AnchorLink href="#referencial">Referencial Teórico</AnchorLink>
               </li>
             </ul>
           </div>
@@ -51,19 +58,19 @@ export default function Header() {
 
         <ul className="DESKTOP-MENU hidden space-x-8 lg:flex px-4">
           <li>
-            <a href="/about">Problema</a>
+            <AnchorLink href="#problema">Problema</AnchorLink>
           </li>
           <li>
-            <a href="/portfolio">Justificativa</a>
+            <AnchorLink href="#justificativa">Justificativa</AnchorLink>
           </li>
           <li>
-            <a href="/contact">Objetivo Geral</a>
+            <AnchorLink href="#objetivo">Objetivo Geral</AnchorLink>
           </li>
           <li>
-            <a href="/contact">Objetivos específicos da pesquisa</a>
+            <AnchorLink href="#especificos">Objetivos específicos da pesquisa</AnchorLink>
           </li>
           <li>
-            <a href="/contact">Referencial Teórico</a>
+            <AnchorLink href="#referencial">Referencial Teórico</AnchorLink>
           </li>
         </ul>
       </nav>

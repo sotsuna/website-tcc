@@ -5,6 +5,7 @@
 .hideMenuNav {
   display: none;
 }
+
 .showMenuNav {
   display: block;
   position: absolute;
@@ -19,4 +20,36 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+}
+
+.dark-green-gray {
+  background-color: #283618;
+}
+
+.light-gray-green {
+  background-color: #b7b7a4;
+}
+
+.soft-gray {
+  background-color: #d4d4d4;
+}
+
+.off-white {
+  background-color: #f0efeb;
+}
+
+.text-dark-green-gray {
+  color: #283618;
+}
+
+.text-light-gray-green {
+  color: #b7b7a4;
+}
+
+.text-soft-gray {
+  color: #d4d4d4;
+}
+
+.text-off-white {
+  color: #f0efeb;
 }
