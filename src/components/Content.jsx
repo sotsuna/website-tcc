@@ -1,5 +1,4 @@
 import '../App.css'
-import Scrolldown from './Scrolldown';
 
 const Content = ({ id, text, title, inverted = false }) => {
 
