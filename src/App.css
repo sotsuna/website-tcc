@@ -53,3 +53,28 @@
 .text-off-white {
   color: #f0efeb;
 }
+
+@keyframes fade-in-top {
+  0% {
+    opacity: 0;
+    transform: translatey(-50%);
+    -webkit-transform: translatey(-50%);
+    -moz-transform: translatey(-50%);
+    -ms-transform: translatey(-50%);
+    -o-transform: translatey(-50%);
+}
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+  }
+}
+
+.fade-in-left {
+  animation: fade-in-top 1s ease-in-out;
+  -webkit-animation: fade-in-top 1s ease-in-out;
+}

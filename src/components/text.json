@@ -1,27 +1,27 @@
 {
-    "1": {
-        "title": "Problema de pesquisa",
-        "text": "Como ensinar programação no primeiro ano dos ensinos médios no município de Santa Cruz do Sul de forma lúdica e interessante para os alunos?",
-        "id":"problema"
-    },
-    "2": {
-        "title": "Justificativa",
-        "text": "Test",
-        "id":"justificativa"
-    },
-    "3": {
-        "title": "Objetivo geral da pesquisa",
-        "text": "Testestse",
-        "id":"objetivo"
-    },
-    "4": {
-        "title": "Objetivos específicos da pesquisa",
-        "text": "Teste",
-        "id":"especificos"
-    },
-    "5": {
-        "title": "Referencial teórico",
-        "text": "TESEEEEESTE",
-        "id":"referencial"
-    }
+  "1": {
+    "title": "Problema de pesquisa",
+    "text": "Como ensinar programação no primeiro ano dos ensinos médios no município de Santa Cruz do Sul de forma lúdica e interessante para os alunos?",
+    "id": "problema"
+  },
+  "2": {
+    "title": "Justificativa",
+    "text": "A tecnologia vem se desenvolvendo em um ritmo alarmante, segundo o portal online da ASSEMP, no ano de 2021, o Banco Social de Tecnologia (BTEC), fundado no ano de 2019, fez a doação de 44 computadores para 10 escolas pública. A notícia em questão reforça a necessidade do nosso tempo, da nossa juventude, do uso frequente da tecnologia, não como uma forma de somente lazer, mas também como uma forma de estudo e aprendizagem. Durante a pandemia do COVID 19 isso ficou mais evidente com as aulas online, todos tivemos que nos adaptar para conseguir acompanhar esse rápido avanço da tecnologia.\n\nHavendo isso em mente, desenvolvi essa pesquisa optando pela faixa etária dos últimos anos do fundamental e os primeiros anos do ensino médio por haver um maior interesse na tecnologia e por ser um ano de transição entre o ensino fundamental e o ensino médio, dificilmente você vai encontrar alguém nessa idade que não queira ter um computador para lazer e estudo. Analisando que a área tecnológica foi a que mais se desenvolveu, pode-se ver uma grande oportunidade de pesquisar e entender como que no ensino médio sobre essas profissões que compõem o mercado de trabalho tecnológico.\n\nA grande problemática do ensino da programação nas escolas, pela minha experiência e também por relato de amigos próximos, é a falta de interesse ou dificuldade no entendimento da programação. Fato é, a programação não é um bicho de sete cabeças, então deve haver um problema no método de ensino utilizado nas escolas que possuem em sua grade curricular algum tipo de matéria relacionada à programação, visto que o desinteresse pela temática se dá pelo desentendimento e pela dificuldade dos alunos com a matéria. Pode-se concluir a ideia baseando-se na frase de GARLET.\n\nConsiderando a importância da tecnologia, o ensino da programação no meu último ano no fundamental, assim como os três anos de ensino no SENAC, mudou completamente a minha visão de vida, no sentido de que, eu estava sem um propósito, eu apenas estudava, não havia um propósito de estar fazendo tudo aquilo. Então acredito que, o estudo e investimento sobre a temática, possa mudar a vida de diversos estudantes, assim como mudou a minha para sempre. ",
+    "id": "justificativa"
+  },
+  "3": {
+    "title": "Objetivo geral da pesquisa",
+    "text": "Testestse",
+    "id": "objetivo"
+  },
+  "4": {
+    "title": "Objetivos específicos da pesquisa",
+    "text": "Teste",
+    "id": "especificos"
+  },
+  "5": {
+    "title": "Referencial teórico",
+    "text": "TESEEEEESTE",
+    "id": "referencial"
+  }
 }
