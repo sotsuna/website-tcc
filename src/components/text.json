@@ -11,12 +11,17 @@
   },
   "3": {
     "title": "Objetivo geral da pesquisa",
-    "text": "Testestse",
+    "text": "O objetivo geral dessa pesquisa é analisar, comparar e argumentar o resultado da coleta de dados das escolas que concederam a permissão de pesquisa no munícipio de Santa Cruz do Sul (SCS), assim será possível medir de forma metódica, a maneira que conteúdos relacionados à programação estão sendo ensinados aos alunos, a modo que, gere mais interesse e engajamento dos alunos com o mesmo.\n\nAlém disto, desejo também, fazer uma comparação entre as escolas que irei pesquisar, sendo elas duas que não tem como objetivo aplicar a lógica de programação em matéria alguma, nem mesmo na disciplina de informática, e outras duas que possuem o ensino da lógica de programação em pelo menos em uma das matérias.O objetivo geral dessa pesquisa é analisar, comparar e argumentar o resultado da coleta de dados das escolas que concederam a permissão de pesquisa no munícipio de Santa Cruz do Sul (SCS), assim será possível medir de forma metódica, a maneira que conteúdos relacionados à programação estão sendo ensinados aos alunos, a modo que, gere mais interesse e engajamento dos alunos com o mesmo. Além disto, desejo também, fazer uma comparação entre as escolas que irei pesquisar, sendo elas duas que não tem como objetivo aplicar a lógica de programação em matéria alguma, nem mesmo na disciplina de informática, e outras duas que possuem o ensino da lógica de programação em pelo menos em uma das matérias.",
     "id": "objetivo"
   },
   "4": {
     "title": "Objetivos específicos da pesquisa",
-    "text": "Teste",
+    "text": {
+      "1": "Pesquisar sobre os métodos de ensino utilizados no munícipio de Santa Cruz do Sul.",
+      "2": "Analisar a eficácia, num contexto de aprendizado e interesse dos alunos, dos métodos utilizados que foram pesquisados. ",
+      "3": "Comparar os dados obtidos a partir da análise anterior.",
+      "4": "Mapear os dados de cada escola pesquisada e desenvolver um website que informe sobre a pesquisa."
+    },
     "id": "especificos"
   },
   "5": {
