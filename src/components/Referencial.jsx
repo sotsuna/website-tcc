@@ -1,6 +1,6 @@
 import '../App.css'
 
-const Referencial = ({ id, text, title, inverted = false }) => {
+const Content = ({ id, text, title, inverted = false }) => {
 
     const invertede = inverted ? "order-last" : " ";
     const classes = `fade-in-left ${invertede}`;
@@ -22,4 +22,4 @@ const Referencial = ({ id, text, title, inverted = false }) => {
     )
 };
 
-export default Referencial;
+export default Content;
